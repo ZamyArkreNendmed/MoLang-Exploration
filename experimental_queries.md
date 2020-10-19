@@ -23,9 +23,9 @@
 
 * Return value:
 
-| Value     | Type   | Description                                                |
-|-----------|--------|------------------------------------------------------------|
-| Any value | Number | Any numerical value depending on the scoreboard identifier |
+| Type   | Description                                                |
+|--------|------------------------------------------------------------|
+| Number | Any numerical value depending on the scoreboard identifier |
 
 
 <b> Situation </b><br>
