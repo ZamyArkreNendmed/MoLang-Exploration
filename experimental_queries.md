@@ -4,7 +4,7 @@
 
 | Experimental Entity Queries                                                                                                  |
 |------------------------------------------------------------------------------------------------------------------------------|
-| [query.scoreboard](https://github.com/ZamyArkreNendmed/MoLang-Exploration/blob/main/experimental_queries.md#queryscoreboard) |
+| [query.scoreboard](../experimental_queries.md#queryscoreboard) |
 ## Experimental Entity Queries
 
 ### query.scoreboard
