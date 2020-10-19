@@ -2,9 +2,11 @@
 
 * This beta documentation is made based on the version 1.16.100.60 of Minecraft: Bedrock Edition.
 
-| Experimental Entity Queries                                                                                                  |
-|------------------------------------------------------------------------------------------------------------------------------|
+| Experimental Entity Queries                                   |
+|---------------------------------------------------------------|
 | [query.scoreboard](./experimental_queries.md#queryscoreboard) |
+| [query.self](./experimental_queries.md#queryself)             |
+
 ## Experimental Entity Queries
 
 
