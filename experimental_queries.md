@@ -48,9 +48,9 @@ This will return `1.0` or true if the scoreboard value is more than `2`.
 
 * Return value:
 
-| Value | Type   | Description                 |
-|-------|--------|-----------------------------|
-|       | Entity | Returns an entity reference |
+| Type             | Description                 |
+|------------------|-----------------------------|
+| Entity Reference | Returns an entity reference |
 
 
 <b> Situation </b><br>
