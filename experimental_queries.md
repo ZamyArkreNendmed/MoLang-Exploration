@@ -2,7 +2,9 @@
 
 * This beta documentation is made based on the version 1.16.100.60 of Minecraft: Bedrock Edition.
 
-
+| Experimental Entity Queries                                                                                                  |
+|------------------------------------------------------------------------------------------------------------------------------|
+| [query.scoreboard](https://github.com/ZamyArkreNendmed/MoLang-Exploration/blob/main/experimental_queries.md#queryscoreboard) |
 ## Experimental Entity Queries
 
 ### query.scoreboard
