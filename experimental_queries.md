@@ -1,4 +1,4 @@
-<h1> Experimental MoLang Entity Queries Documentation </h1>
+# Experimental MoLang Entity Queries Documentation </h1>
 
 * This beta documentation is made based on the version 1.16.100.60 of Minecraft: Bedrock Edition.
 
@@ -21,7 +21,7 @@
 |-----------|--------|--------------------------------------------------|
 | Any value | Number | Any numerical value depending on the scoreboard identifier |
 
-#### Situation
+<b> Situation </b><br>
 For instance, you have created a scoreboard with `counter` as the identifier, and you want to test it for an actor (including self), you would write this:<br>
 - `query.scoreboard('counter')`<br>
 
