@@ -21,7 +21,9 @@
 |-----------|--------|--------------------------------------------------|
 | Any value | Number | Any numerical value depending on the scoreboard identifier |
 
+
 <b> Situation </b><br>
+
 For instance, you have created a scoreboard with `counter` as the identifier, and you want to test it for an actor (including self), you would write this:<br>
 - `query.scoreboard('counter')`<br>
 
