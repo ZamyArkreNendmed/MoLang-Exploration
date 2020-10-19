@@ -7,6 +7,7 @@
 | [query.scoreboard](./experimental_queries.md#queryscoreboard) |
 ## Experimental Entity Queries
 
+
 ### query.scoreboard
 * Takes one argument which is the name of the scoreboard entry for an actor. Returns the specified scoreboard value for this entity.
 
@@ -14,14 +15,38 @@
 |----------------|--------|---------------|-------------------------------------------|
 | 0              | String |               | The scoreboard identifier of an actor     |
 
-* Query writing example:
+* Query writing example:<br>
 `query.scoreboard('<scoreboard_name>')`
 
 * Return value:
 
-| Value     | Type   | Description                                      |
-|-----------|--------|--------------------------------------------------|
+| Value     | Type   | Description                                                |
+|-----------|--------|------------------------------------------------------------|
 | Any value | Number | Any numerical value depending on the scoreboard identifier |
+
+
+<b> Situation </b><br>
+
+For instance, you have created a scoreboard with `counter` as the identifier, and you want to test it for an actor, you would write this:<br>
+- `query.scoreboard('counter')`<br>
+
+If you apply value `2` for the specified actor with the `counter` scoreboard, the returning value would be `2`. To test for if the `counter` scoreboard value is more than `2`:<br>
+- `query.scoreboard('counter') > 2.0`<br>
+
+This will return `1.0` or true if the scoreboard value is more than `2`.
+
+
+### query.self
+* Returns the current entity (reference variable).
+
+* Query writing example (with Arrow Operator):<br>
+`query.self -> <Entity Reference>`
+
+* Return value:
+
+| Value | Type   | Description                 |
+|-------|--------|-----------------------------|
+|       | Entity | Returns an entity reference |
 
 
 <b> Situation </b><br>
