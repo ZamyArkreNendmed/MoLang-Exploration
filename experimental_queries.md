@@ -1,4 +1,4 @@
-# Experimental MoLang Entity Queries Documentation
+<h1> Experimental MoLang Entity Queries Documentation </h1>
 
 * This beta documentation is made based on the version 1.16.100.60 of Minecraft: Bedrock Edition.
 
