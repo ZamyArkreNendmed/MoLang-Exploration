@@ -24,7 +24,7 @@
 
 <b> Situation </b><br>
 
-For instance, you have created a scoreboard with `counter` as the identifier, and you want to test it for an actor (including self), you would write this:<br>
+For instance, you have created a scoreboard with `counter` as the identifier, and you want to test it for an actor, you would write this:<br>
 - `query.scoreboard('counter')`<br>
 
 If you apply value `2` for the specified actor with the `counter` scoreboard, the returning value would be `2`. To test for if the `counter` scoreboard value is more than `2`:<br>
