@@ -8,6 +8,7 @@
 ## Experimental Entity Queries
 
 
+
 ### query.scoreboard
 * Takes one argument which is the name of the scoreboard entry for an actor. Returns the specified scoreboard value for this entity.
 
@@ -36,6 +37,7 @@ If you apply value `2` for the specified actor with the `counter` scoreboard, th
 This will return `1.0` or true if the scoreboard value is more than `2`.
 
 
+
 ### query.self
 * Returns the current entity (reference variable).
 
@@ -54,4 +56,5 @@ This will return `1.0` or true if the scoreboard value is more than `2`.
 For instance, you want to query if this entity is sneaking, write:<br>
 - `query.self -> query.is_sneaking`<br>
 
-You can also refer 'structs' or variables on the entity referred.
+You can also refer 'structs' or variables on the entity referred.<br>
+- `query.self -> variable.counter`
