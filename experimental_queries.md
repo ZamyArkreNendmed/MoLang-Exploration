@@ -4,6 +4,7 @@
 
 | Experimental Entity Queries                                   |
 |---------------------------------------------------------------|
+| [query.get_nearby_entities_except_self](./experimental_queries.md#queryget_nearby_entities_except_self) |
 | [query.scoreboard](./experimental_queries.md#queryscoreboard) |
 | [query.self](./experimental_queries.md#queryself)             |
 
