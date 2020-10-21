@@ -35,6 +35,19 @@
 a) For instance, you wanted to filter if there at least five zombies in a nine block radius nearby an actor, you would use `query.count` entity query and write this:<br>
   - `query.count(query.get_nearby_entities_except_self(9.0, 'minecraft:zombie')) >= 5.0`<br>
 
+b) You also want to test if any nearby entities that are sneaking and select the entity:<br>
+  - ```json
+    variable.entity_sneaking = 0.0;
+    for_each(temp.entity, query.get_nearby_entities_except_self, {
+      (temp.entity -> query.is_sneaking) ? {
+        variable.entity_sneaking = temp.entity;
+        break;
+      };
+    });
+    return variable.entity_sneaking;
+    ```
+  * As you can see above, it will seach any nearby entities that are sneaking, and save the selected entity for later use.
+
 
 
 ### query.scoreboard
