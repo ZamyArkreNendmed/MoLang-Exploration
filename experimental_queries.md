@@ -55,6 +55,7 @@ b) You also want to test if any nearby entities within eight block radius that a
 
 ### query.scoreboard
 * This MoLang entity query takes one argument which is the name of the scoreboard entry for an actor. It returns the specified scoreboard value for this entity.
+* Note that this MoLang query only functions properly in Resource Pack when the scoreboard itself has a setdisplay of sidebar.
 
 | Argument Index | Type   | Default Value | Description                               |
 |----------------|--------|---------------|-------------------------------------------|
