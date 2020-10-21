@@ -1,4 +1,4 @@
-# Experimental MoLang Entity Queries Documentation </h1>
+# Experimental MoLang Entity Queries Explaination </h1>
 
 * This beta documentation is made based on the version 1.16.100.60 of Minecraft: Bedrock Edition.
 
@@ -12,7 +12,7 @@
 
 
 ### query.scoreboard
-* Takes one argument which is the name of the scoreboard entry for an actor. Returns the specified scoreboard value for this entity.
+* This MoLang entity query takes one argument which is the name of the scoreboard entry for an actor. It returns the specified scoreboard value for this entity.
 
 | Argument Index | Type   | Default Value | Description                               |
 |----------------|--------|---------------|-------------------------------------------|
@@ -41,7 +41,7 @@ This will return `1.0` or true if the scoreboard value is more than `2`.
 
 
 ### query.self
-* Returns the current entity (reference variable).
+* This query returns the current entity (reference variable).
 
 * Query writing example (with Arrow Operator):<br>
 `query.self -> <Entity Reference>`
