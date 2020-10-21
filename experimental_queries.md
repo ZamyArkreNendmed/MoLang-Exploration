@@ -37,7 +37,7 @@ a) For instance, you wanted to filter if there at least five zombies in a nine b
   - `query.count(query.get_nearby_entities_except_self(9.0, 'minecraft:zombie')) >= 5.0`<br>
 
 b) You also want to test if any nearby entities that are sneaking and select the entity:<br>
-  - ```json
+  - ```javascript
     variable.entity_sneaking = 0.0;
     for_each(temp.entity, query.get_nearby_entities_except_self, {
       (temp.entity -> query.is_sneaking) ? {
