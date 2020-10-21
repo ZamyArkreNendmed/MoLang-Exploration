@@ -1,6 +1,7 @@
-# Experimental MoLang Entity Queries Explaination </h1>
+# Experimental MoLang Entity Queries Documentation [In-Progress] </h1>
 
-* This beta documentation is made based on the version 1.16.100.60 of Minecraft: Bedrock Edition.
+* This beta documentation is made based on the version 1.16.100.60 of Minecraft: Bedrock Edition. Any changes may affect this documentation.
+* This documentation is not yet completed.
 
 | Experimental Entity Queries                                   |
 |---------------------------------------------------------------|
