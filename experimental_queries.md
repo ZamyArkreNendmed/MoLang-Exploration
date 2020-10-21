@@ -11,6 +11,32 @@
 
 
 
+### query.get_nearby_entities_except_self
+* This MoLang query returns the list of entities (Variable Reference) within the specified distance relative from the actor with an exception of the actor itself, taking an optional second argument as a filter for which mob or entity types to accept. For instance, 'minecraft:cow', 'minecraft:sheep', 'minecraft:creeper' and much more.
+* You may need to use the `for_each` MoLang function to iterate the list. Refer an example below.
+* You may also use `query.count` to get number of nearby entities.
+
+| Argument Index | Type   | Default Value | Description                               |
+|----------------|--------|---------------|-------------------------------------------|
+| 0              | Number | 0.0           | The distance to test nearby entities relative from the actor |
+| 1              | String |               | Entity identifier to filter from the list of nearby entities from the actor |
+
+* Query writing example:<br>
+`query.get_nearby_entities_except_self(<distance_in_metres>, '<entity_identifier>')`
+
+* Return value:
+
+| Type                  | Description                                                |
+|-----------------------|------------------------------------------------------------|
+| Entity Reference List | An array of Entities (Entity Reference) fetched which later used by `for_each` function to iterate the list |
+
+<b> Situation </b><br>
+
+a) For instance, you wanted to filter if there at least five zombies in a nine block radius nearby an actor, you would use `query.count` entity query and write this:<br>
+  - `query.count(query.get_nearby_entities_except_self(9.0, 'minecraft:zombie')) >= 5.0`<br>
+
+
+
 ### query.scoreboard
 * This MoLang entity query takes one argument which is the name of the scoreboard entry for an actor. It returns the specified scoreboard value for this entity.
 
