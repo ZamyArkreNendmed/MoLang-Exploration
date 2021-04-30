@@ -1,10 +1,11 @@
 # Experimental MoLang Entity Queries Documentation [In-Progress] </h1>
 
-* This beta documentation is made based on the version 1.16.100.60 of Minecraft: Bedrock Edition. Any changes may affect this documentation.
+* This beta documentation is made based on the version 1.17.0.52 of Minecraft: Bedrock Edition. Any changes may affect this documentation.
 * This documentation is not yet completed.
 
 | Experimental Entity Queries                                   |
 |---------------------------------------------------------------|
+| [query.get_nearby_entities](./experimental_queries.md#queryget_nearby_entities) |
 | [query.get_nearby_entities_except_self](./experimental_queries.md#queryget_nearby_entities_except_self) |
 | [query.scoreboard](./experimental_queries.md#queryscoreboard) |
 | [query.self](./experimental_queries.md#queryself)             |
