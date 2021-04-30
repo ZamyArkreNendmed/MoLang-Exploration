@@ -46,10 +46,10 @@ b) For instance, you wanted to filter if there at least three cats in a nine blo
   - `query.count(query.get_nearby_entities(9.0, 'minecraft:cats')) >= 3.0`<br>
   * As you can see above, it filters through the available entites including the current actor entity itself, and filter the entity identifier.
 
-c) You also want to test if any nearby entities within eight twelve block radius that are holding bow item and then select the entity:<br>
+c) You also want to test if any nearby entities including itself within eight twelve block radius that are holding bow item and then select the entity:<br>
   - ```javascript
     variable.entity_holding_bow = 0.0;
-    for_each(temp.entity, query.get_nearby_entities_except_self(12.0), {
+    for_each(temp.entity, query.get_nearby_entities(12.0), {
       ((temp.entity -> query.get_equipped_item_name) == 'bow') ? {
         variable.entity_holding_bow = temp.entity;
         break;
