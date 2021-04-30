@@ -39,11 +39,14 @@
 
 <b> Situation </b><br>
 
-a) For instance, you wanted to filter if there at least three cats in a nine block radius nearby an actor, you would use `query.count` entity query and write this:<br>
+a) For instance, you wanted to filter if there at least five entities in a ten block radius nearby an actor including itself, you would use `query.count` entity query and write this:<br>
+  - `query.count(query.get_nearby_entities(10.0)) >= 5.0`<br>
+
+b) For instance, you wanted to filter if there at least three cats in a nine block radius nearby an actor, you would use the following MoLang query `query.count` entity query and write this:<br>
   - `query.count(query.get_nearby_entities(9.0, 'minecraft:cats')) >= 3.0`<br>
   * As you can see above, it filters through the available entites including the current actor entity itself, and filter the entity identifier.
 
-b) You also want to test if any nearby entities within eight twelve block radius that are holding bow item and then select the entity:<br>
+c) You also want to test if any nearby entities within eight twelve block radius that are holding bow item and then select the entity:<br>
   - ```javascript
     variable.entity_holding_bow = 0.0;
     for_each(temp.entity, query.get_nearby_entities_except_self(12.0), {
