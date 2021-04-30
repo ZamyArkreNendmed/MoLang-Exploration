@@ -3,6 +3,10 @@
 * This beta documentation is made based on the version 1.17.0.52 of Minecraft: Bedrock Edition. Any changes may affect this documentation.
 * This documentation is not yet completed.
 
+### Creator Notes:
+* You must enable `Holiday Creator Features` to enable the Experimental MoLang Features.
+* Certain MoLang expressions, may not accept Entity Queries, causing the MoLang entity query to not parse.
+
 | Experimental Entity Queries                                   |
 |---------------------------------------------------------------|
 | [query.get_nearby_entities](./experimental_queries.md#queryget_nearby_entities) |
